@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<title>管理后台登陆</title>
+		<link href="/static/css/inc_login.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div id="main">
+            <div id="wrap">&nbsp;</div>
+            <div id="wrapc">
+                <div class="logo">
+                    <div id="logo"></div>
+                </div>
+                <div class="login">
+                    <form action="/login" method="post">
+                        <table cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <th>管理员帐号</th>
+                                <td>
+									<div class="logo-icon">
+                                        <div class="pw"></div>
+                                        <input class="input pw2" id="username" name="username" value="" type="text"/> 
+                                    </div>
+								</td>
+                            </tr>
+                            <tr>
+                                <th>管理员密码</th>
+                                <td>
+									<div class="logo-icon">
+                                        <div class="pwpd"></div>
+                                        <input type="password" name="password" size="32" tabindex="0" class="input pwpd2">
+                                    </div>
+                                </td>
+                            </tr> 
+                            <tr>
+                                <th></th>
+                                <td>
+									<input value ="" name="submit" type="submit" class="bottom" />
+                                </td>
+                            </tr>
+                        </table> 
+                    </form>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>

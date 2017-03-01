@@ -1,0 +1,19 @@
+body{padding:0;margin:0;font-size:12px;background:#f2f0f0;font-family:Verdana;}
+.top {margin-top:3px;height:80px;}
+.logo {width: 160px; float:left;}
+.tab{float:left;font-size:14px;margin:0 10px;background:#ff74a1;padding:0 10px;}
+.tab li {float:left;line-height:32px;padding:3px 10px;list-style:none;text-decoration:none;}
+.tab li a {color:#fff;}
+.info {padding-top:20px;color:#333;}
+.info a {margin-left:3px;}
+.left {width:13%;float:left;border:3px solid #ff74a1; padding:5px 10px;border-radius:4px;}
+.left h1 {border-bottom: 3px solid #f83a7c;float: left;font-size: 12px;height: 30px;line-height: 32px; padding: 0 0 0.3em;}
+.left .cc {border-top: 1px solid #ff74a1;clear: both;height: 10px;margin-right: 1em;}
+.left li {height:40px;line-height:40px;list-style:none;}
+.left li span {float:left;width:5px;height:5px;border-radius:5px;background:#ff74a1;margin:18px 10px 0 0;}
+.right {float:left;margin-left:10px;width:84%; overflow:scroll;}
+.right .head{height:35px;}
+.right a {float:left;height:30px;line-height:30px; background: none repeat scroll 0 0 #FFFFFF;border-bottom: 1px solid #FCBCD2;border-left: 1px solid #FCBCD2;border-top: 1px solid #FCBCD2;padding:0 5px;}
+.right a.first{border-radius:4px 0 0 4px;background:none repeat scroll 0 0 #FF8CB5;border-color:#FF8CB5;color:#FFF;}
+.right a.second{border-radius:0px 4px 4px 0px;}
+.right .project{font-size:10px;}

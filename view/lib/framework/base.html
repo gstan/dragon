@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<title>管理后台{block name="title"}default page title{/block}</title>
+		<link  href="/static/css/screen.css" rel="stylesheet" type="text/css"/>
+		<link  href="/static/css/base.css" rel="stylesheet" type="text/css"/>
+	</head>
+
+	<body
+		{block name="top"}
+			<div class="top">
+				<div class="logo">
+					<a href="http://www.meilishuo.com" target="_blank" ><img src="/static/image/logo.png" alt="logo" title="logo"></a>
+				</div>
+				<ul class="tab">
+					<li class="navon"><a href="">常用操作</a></li>
+					<li><a href="">邮件方案</a></li>
+					<li><a href="">用户管理</a></li>
+					<li><a href="">seo管理</a></li>
+					<li><a href="">系统设置</a></li>
+					<li><a href="">应用管理</a></li>
+				</ul>
+				<div class="info">
+					<p>用户名:{$username} 上次登录时间：{$logintime} <a href="/login/out">（退出）</a>|<a href="">访问网站首页</a>|<a href="">清空缓存</a></p>
+				</div>
+			</div>
+		{/block}
+		{block name="left"}
+			<div class="left">
+				<H1>常用操作</H1>
+				<div class="cc"></div>
+				<ul>
+					{if !empty($action)}
+						{foreach from=$action  item=love}
+							<li><span></span><a href="/{$love['url']}">{$love['action']}</a></li>
+						{/foreach}
+					{else}
+					<li><span></span><a href="">创建模版</a></li>
+					<li><span></span><a href="">创建内容</a></li>
+					{/if}
+				</ul>
+			</div>
+		{/block}
+		{block name="right"}
+		{/block}
+	</body>
+</html>
